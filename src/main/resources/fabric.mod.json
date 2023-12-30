@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "phase-dimension",
+  "version": "${version}",
+  "name": "Phase Dimension",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/notepad.exe/phase-dimension"
+  },
+  "license": "MIT",
+  "icon": "assets/phase-dimension/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "phase.phase_dimension.phasedimension.client.PhaseDimensionClient"
+    ],
+    "main": [
+      "phase.phase_dimension.phasedimension.PhaseDimension"
+    ]
+  },
+  "mixins": [
+    "phase-dimension.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
