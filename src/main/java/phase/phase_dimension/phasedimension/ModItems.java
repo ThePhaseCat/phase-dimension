@@ -19,7 +19,7 @@ public class ModItems {
     // cast to an item when using this method.
     public static <T extends Item> T register(T item, String ID) {
         // Create the identifier for the item.
-        Identifier itemID = new Identifier("mod_id", ID);
+        Identifier itemID = new Identifier("phase-dimension", ID);
 
         // Register the item.
         T registeredItem = Registry.register(Registries.ITEM, itemID, item);
