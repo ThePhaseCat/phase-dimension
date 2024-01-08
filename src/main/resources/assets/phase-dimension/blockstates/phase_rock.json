@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "phase-dimension:block/phase_rock" }
+  }
+}

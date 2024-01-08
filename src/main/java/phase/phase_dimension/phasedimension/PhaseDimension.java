@@ -28,5 +28,11 @@ public class PhaseDimension implements ModInitializer {
                 .modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
                 // Add the item to the group when you get access to it.
                 .register((itemGroup) -> itemGroup.add(ModBlocks.CONDENSED_DIRT));
+
+        ItemGroupEvents
+                // Register a "modify" event for the Building Blocks item group.
+                .modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS)
+                // Add the item to the group when you get access to it.
+                .register((itemGroup) -> itemGroup.add(ModBlocks.PHASE_ROCK));
     }
 }

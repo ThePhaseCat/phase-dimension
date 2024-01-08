@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "phase-dimension:item/condensed_dirt"
+          "name": "phase-dimension:item/phase_rock"
         }
       ],
       "conditions": [
